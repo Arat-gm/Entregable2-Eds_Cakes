@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Raleway';
+}
+
+h1{
+    font-family: 'Amatic SC', san-serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+body {
+	
+	background-color: white;
+	}
+
+h2{
+	font-family: 'Raleway';
+}
+h4{
+    font-family: 'Raleway';
+    padding: 10px;
+}
+a {
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 5rem;
+	line-height: 2rem;    
+}
+a:hover {
+    color:rgb(236, 187, 202)
+}
+head{
+    position:sticky;
+    text-align: center;
+    
+}
+nav ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:rgb(40, 92, 155);    
+    text-align: center; 
+    
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    align-content: center;
+    padding: 10px;
+    margin: auto;   
+   }
+   
+
+.link{
+    color: rgb(14, 12, 12);
+    align-content: center;
+    list-style: none;
+    font-size: 2rem;   
+    text-align: center;
+}
+.ubicacion{
+    background-color: rgb(218, 209, 209);
+    color: black;}
+
+.form-contact{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 17px rgba(0, 0, 0, 0.485);
+}
+
+.container-fluid {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    color:rgb(255, 255, 255); 
+   
+}
+.contact{
+    padding:.9rem;
+    overflow: hidden;
+    color:rgb(18, 19, 19);
+}
+.contact label, .contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.contact label {
+    font-weight: 700;
+
+}
+.contact input:not([type="submit"]), .contact textarea{
+    border: none;
+    border-bottom: 2px solid rgb(40, 92, 155);
+    margin-bottom:  10px;
+    font-size: 20px;
+    outline: none;
+    color:black;
+}
+.contact textarea{
+    min-height: 100px;
+
+}
+input[type="submit"]{
+    padding: 10px;
+    border: none;
+background-color: rgb(40, 92, 155);
+color:black;
+font-size: 20px;
+cursor: pointer;
+}
+
+.btn {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg:rgb(40, 92, 155);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .1rem;
+    --bs-btn-hover-color: rgb(47, 47, 47);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-active-bg:white;
+    --bs-btn-active-border-color: rgb(15, 3, 70);
+   }
+   #formaPresupuesto{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+
+   }
+.nav{
+    margin-bottom: 30px;
+    padding:bottom 30px;
+}
